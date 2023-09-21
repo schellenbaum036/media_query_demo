@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	with: 100vw;
+	height: auto;
+	background-color: aquamarine;
+}
+
+.container{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.square{
+	width: 30%;
+	aspect-ratio: 1/1;
+}
+
+.first{
+	background-color: red;
+}
+
+.second{
+	background-color: yellow;
+}
+
+.third{
+	background-color: blue;
+}

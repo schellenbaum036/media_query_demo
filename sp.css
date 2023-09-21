@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (max-width: 728px) {
+	
+body{
+	margin: 0;
+	with: 100vw;
+	height: 100vh;
+	background-color: beige;
+}
+
+.container{
+	width: 100%;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.square{
+	width: 50%;
+	aspect-ratio: 2/1;
+	margin: auto;
+}
+
+.first{
+	background-color: red;
+}
+
+.second{
+	background-color: yellow;
+}
+
+.third{
+	background-color: blue;
+}
+	
+}
+
